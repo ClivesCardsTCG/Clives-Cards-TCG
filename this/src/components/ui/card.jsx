@@ -1,0 +1,2 @@
+export const Card = ({ children }) => (<div className='bg-zinc-900 border border-zinc-700 rounded-xl'>{children}</div>);
+export const CardContent = ({ children, className }) => (<div className={className}>{children}</div>);
